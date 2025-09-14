@@ -1,5 +1,5 @@
 all:
-	cc -O 2048sunview.c -o 2048sunview -lsuntool -lsunwindow -lpixrect
+	cc -O 2048.c -o 2048 -lsuntool -lsunwindow -lpixrect
 	cc -O flap.c -o flap -lsuntool -lsunwindow -lpixrect
 	cc -O tetris.c -o tetris -lsuntool -lsunwindow -lpixrect
 	cc -O donkey.c -o donkey -lsuntool -lsunwindow -lpixrect
